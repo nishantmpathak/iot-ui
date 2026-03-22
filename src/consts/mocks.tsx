@@ -1,226 +1,97 @@
 export const apiResponse = [
-    {
-        "device": {
-            "id": "1",
-            "label": "Shop 1",
-            "location": "Pune",
-            "gatewayId": "1231231231231232",
-            "hardwareModel": "Motorola",
-            "deviceType": "Electricity Meter",
-            "isActive": true,
-            "timeStamp": "2026-02-28T13:45:00Z",
-        },
-        "readings": [
-            { "metric_name": "meterUnitReading", "metric_value": 4500.10, "unit": "kWh", "timestamp": "2026-02-28T00:00:00Z" },
-            { "metric_name": "Vr", "metric_value": 230.1, "unit": "V", "timestamp": "2026-02-28T00:00:00Z" },
-            { "metric_name": "Vy", "metric_value": 229.5, "unit": "V", "timestamp": "2026-02-28T00:00:00Z" },
-            { "metric_name": "Vb", "metric_value": 231.0, "unit": "V", "timestamp": "2026-02-28T00:00:00Z" },
-            { "metric_name": "Ir", "metric_value": 4.10, "unit": "A", "timestamp": "2026-02-28T00:00:00Z" },
-            { "metric_name": "Iy", "metric_value": 3.90, "unit": "A", "timestamp": "2026-02-28T00:00:00Z" },
-            { "metric_name": "Ib", "metric_value": 4.05, "unit": "A", "timestamp": "2026-02-28T00:00:00Z" },
-            { "metric_name": "PF", "metric_value": 0.95, "unit": "ratio", "timestamp": "2026-02-28T00:00:00Z" }
-        ]
-    },
-    {
-        "device": {
-            "id": "1",
-            "label": "Shop 1",
-            "location": "Pune",
-            "gatewayId": "1231231231231232",
-            "hardwareModel": "Motorola",
-            "deviceType": "Electricity Meter",
-            "isActive": true,
-            "timeStamp": "2026-02-28T13:45:00Z",
-        },
-        "readings": [
-            { "metric_name": "meterUnitReading", "metric_value": 4500.10, "unit": "kWh", "timestamp": "2026-02-28T00:00:00Z" },
-            { "metric_name": "Vr", "metric_value": 230.1, "unit": "V", "timestamp": "2026-02-28T00:00:00Z" },
-            { "metric_name": "Vy", "metric_value": 229.5, "unit": "V", "timestamp": "2026-02-28T00:00:00Z" },
-            { "metric_name": "Vb", "metric_value": 231.0, "unit": "V", "timestamp": "2026-02-28T00:00:00Z" },
-            { "metric_name": "Ir", "metric_value": 4.10, "unit": "A", "timestamp": "2026-02-28T00:00:00Z" },
-            { "metric_name": "Iy", "metric_value": 3.90, "unit": "A", "timestamp": "2026-02-28T00:00:00Z" },
-            { "metric_name": "Ib", "metric_value": 4.05, "unit": "A", "timestamp": "2026-02-28T00:00:00Z" },
-            { "metric_name": "PF", "metric_value": 0.95, "unit": "ratio", "timestamp": "2026-02-28T00:00:00Z" }
-        ]
-    },
-    {
-        "device": {
-            "id": "1",
-            "label": "Shop 1",
-            "location": "Pune",
-            "gatewayId": "1231231231231232",
-            "hardwareModel": "Motorola",
-            "deviceType": "Electricity Meter",
-            "isActive": true,
-            "timeStamp": "2026-02-28T13:45:00Z",
-        },
-        "readings": [
-            { "metric_name": "meterUnitReading", "metric_value": 4500.10, "unit": "kWh", "timestamp": "2026-02-28T00:00:00Z" },
-            { "metric_name": "Vr", "metric_value": 230.1, "unit": "V", "timestamp": "2026-02-28T00:00:00Z" },
-            { "metric_name": "Vy", "metric_value": 229.5, "unit": "V", "timestamp": "2026-02-28T00:00:00Z" },
-            { "metric_name": "Vb", "metric_value": 231.0, "unit": "V", "timestamp": "2026-02-28T00:00:00Z" },
-            { "metric_name": "Ir", "metric_value": 4.10, "unit": "A", "timestamp": "2026-02-28T00:00:00Z" },
-            { "metric_name": "Iy", "metric_value": 3.90, "unit": "A", "timestamp": "2026-02-28T00:00:00Z" },
-            { "metric_name": "Ib", "metric_value": 4.05, "unit": "A", "timestamp": "2026-02-28T00:00:00Z" },
-            { "metric_name": "PF", "metric_value": 0.95, "unit": "ratio", "timestamp": "2026-02-28T00:00:00Z" }
-        ]
-    },
-    {
-        "device": {
-            "id": "1",
-            "label": "Shop 1",
-            "location": "Pune",
-            "gatewayId": "1231231231231232",
-            "hardwareModel": "Motorola",
-            "deviceType": "Electricity Meter",
-            "isActive": true,
-            "timeStamp": "2026-02-28T13:45:00Z",
-        },
-        "readings": [
-            { "metric_name": "meterUnitReading", "metric_value": 4500.10, "unit": "kWh", "timestamp": "2026-02-28T00:00:00Z" },
-            { "metric_name": "Vr", "metric_value": 230.1, "unit": "V", "timestamp": "2026-02-28T00:00:00Z" },
-            { "metric_name": "Vy", "metric_value": 229.5, "unit": "V", "timestamp": "2026-02-28T00:00:00Z" },
-            { "metric_name": "Vb", "metric_value": 231.0, "unit": "V", "timestamp": "2026-02-28T00:00:00Z" },
-            { "metric_name": "Ir", "metric_value": 4.10, "unit": "A", "timestamp": "2026-02-28T00:00:00Z" },
-            { "metric_name": "Iy", "metric_value": 3.90, "unit": "A", "timestamp": "2026-02-28T00:00:00Z" },
-            { "metric_name": "Ib", "metric_value": 4.05, "unit": "A", "timestamp": "2026-02-28T00:00:00Z" },
-            { "metric_name": "PF", "metric_value": 0.95, "unit": "ratio", "timestamp": "2026-02-28T00:00:00Z" }
-        ]
-    },
-    {
-        "device": {
-            "id": "1",
-            "label": "Shop 1",
-            "location": "Pune",
-            "gatewayId": "1231231231231232",
-            "hardwareModel": "Motorola",
-            "deviceType": "Electricity Meter",
-            "isActive": true,
-            "timeStamp": "2026-02-28T13:45:00Z",
-        },
-        "readings": [
-            { "metric_name": "meterUnitReading", "metric_value": 4500.10, "unit": "kWh", "timestamp": "2026-02-28T00:00:00Z" },
-            { "metric_name": "Vr", "metric_value": 230.1, "unit": "V", "timestamp": "2026-02-28T00:00:00Z" },
-            { "metric_name": "Vy", "metric_value": 229.5, "unit": "V", "timestamp": "2026-02-28T00:00:00Z" },
-            { "metric_name": "Vb", "metric_value": 231.0, "unit": "V", "timestamp": "2026-02-28T00:00:00Z" },
-            { "metric_name": "Ir", "metric_value": 4.10, "unit": "A", "timestamp": "2026-02-28T00:00:00Z" },
-            { "metric_name": "Iy", "metric_value": 3.90, "unit": "A", "timestamp": "2026-02-28T00:00:00Z" },
-            { "metric_name": "Ib", "metric_value": 4.05, "unit": "A", "timestamp": "2026-02-28T00:00:00Z" },
-            { "metric_name": "PF", "metric_value": 0.95, "unit": "ratio", "timestamp": "2026-02-28T00:00:00Z" }
-        ]
-    },
-    {
-        "device": {
-            "id": "1",
-            "label": "Shop 1",
-            "location": "Pune",
-            "gatewayId": "1231231231231232",
-            "hardwareModel": "Motorola",
-            "deviceType": "Electricity Meter",
-            "isActive": true,
-            "timeStamp": "2026-02-28T13:45:00Z",
-        },
-        "readings": [
-            { "metric_name": "meterUnitReading", "metric_value": 4500.10, "unit": "kWh", "timestamp": "2026-02-28T00:00:00Z" },
-            { "metric_name": "Vr", "metric_value": 230.1, "unit": "V", "timestamp": "2026-02-28T00:00:00Z" },
-            { "metric_name": "Vy", "metric_value": 229.5, "unit": "V", "timestamp": "2026-02-28T00:00:00Z" },
-            { "metric_name": "Vb", "metric_value": 231.0, "unit": "V", "timestamp": "2026-02-28T00:00:00Z" },
-            { "metric_name": "Ir", "metric_value": 4.10, "unit": "A", "timestamp": "2026-02-28T00:00:00Z" },
-            { "metric_name": "Iy", "metric_value": 3.90, "unit": "A", "timestamp": "2026-02-28T00:00:00Z" },
-            { "metric_name": "Ib", "metric_value": 4.05, "unit": "A", "timestamp": "2026-02-28T00:00:00Z" },
-            { "metric_name": "PF", "metric_value": 0.95, "unit": "ratio", "timestamp": "2026-02-28T00:00:00Z" }
-        ]
-    },
-    {
-        "device": {
-            "id": "1",
-            "label": "Shop 1",
-            "location": "Pune",
-            "gatewayId": "1231231231231232",
-            "hardwareModel": "Motorola",
-            "deviceType": "Electricity Meter",
-            "isActive": true,
-            "timeStamp": "2026-02-28T13:45:00Z",
-        },
-        "readings": [
-            { "metric_name": "meterUnitReading", "metric_value": 4500.10, "unit": "kWh", "timestamp": "2026-02-28T00:00:00Z" },
-            { "metric_name": "Vr", "metric_value": 230.1, "unit": "V", "timestamp": "2026-02-28T00:00:00Z" },
-            { "metric_name": "Vy", "metric_value": 229.5, "unit": "V", "timestamp": "2026-02-28T00:00:00Z" },
-            { "metric_name": "Vb", "metric_value": 231.0, "unit": "V", "timestamp": "2026-02-28T00:00:00Z" },
-            { "metric_name": "Ir", "metric_value": 4.10, "unit": "A", "timestamp": "2026-02-28T00:00:00Z" },
-            { "metric_name": "Iy", "metric_value": 3.90, "unit": "A", "timestamp": "2026-02-28T00:00:00Z" },
-            { "metric_name": "Ib", "metric_value": 4.05, "unit": "A", "timestamp": "2026-02-28T00:00:00Z" },
-            { "metric_name": "PF", "metric_value": 0.95, "unit": "ratio", "timestamp": "2026-02-28T00:00:00Z" }
-        ]
-    },
-    {
-        "device": {
-            "id": "1",
-            "label": "Shop 1",
-            "location": "Pune",
-            "gatewayId": "1231231231231232",
-            "hardwareModel": "Motorola",
-            "deviceType": "Electricity Meter",
-            "isActive": true,
-            "timeStamp": "2026-02-28T13:45:00Z",
-        },
-        "readings": [
-            { "metric_name": "meterUnitReading", "metric_value": 4500.10, "unit": "kWh", "timestamp": "2026-02-28T00:00:00Z" },
-            { "metric_name": "Vr", "metric_value": 230.1, "unit": "V", "timestamp": "2026-02-28T00:00:00Z" },
-            { "metric_name": "Vy", "metric_value": 229.5, "unit": "V", "timestamp": "2026-02-28T00:00:00Z" },
-            { "metric_name": "Vb", "metric_value": 231.0, "unit": "V", "timestamp": "2026-02-28T00:00:00Z" },
-            { "metric_name": "Ir", "metric_value": 4.10, "unit": "A", "timestamp": "2026-02-28T00:00:00Z" },
-            { "metric_name": "Iy", "metric_value": 3.90, "unit": "A", "timestamp": "2026-02-28T00:00:00Z" },
-            { "metric_name": "Ib", "metric_value": 4.05, "unit": "A", "timestamp": "2026-02-28T00:00:00Z" },
-            { "metric_name": "PF", "metric_value": 0.95, "unit": "ratio", "timestamp": "2026-02-28T00:00:00Z" }
-        ]
-    },
-    {
-        "device": {
-            "id": "1",
-            "label": "Shop 1",
-            "location": "Pune",
-            "gatewayId": "1231231231231232",
-            "hardwareModel": "Motorola",
-            "deviceType": "Electricity Meter",
-            "isActive": true,
-            "timeStamp": "2026-02-28T13:45:00Z",
-        },
-        "readings": [
-            { "metric_name": "meterUnitReading", "metric_value": 4500.10, "unit": "kWh", "timestamp": "2026-02-28T00:00:00Z" },
-            { "metric_name": "Vr", "metric_value": 230.1, "unit": "V", "timestamp": "2026-02-28T00:00:00Z" },
-            { "metric_name": "Vy", "metric_value": 229.5, "unit": "V", "timestamp": "2026-02-28T00:00:00Z" },
-            { "metric_name": "Vb", "metric_value": 231.0, "unit": "V", "timestamp": "2026-02-28T00:00:00Z" },
-            { "metric_name": "Ir", "metric_value": 4.10, "unit": "A", "timestamp": "2026-02-28T00:00:00Z" },
-            { "metric_name": "Iy", "metric_value": 3.90, "unit": "A", "timestamp": "2026-02-28T00:00:00Z" },
-            { "metric_name": "Ib", "metric_value": 4.05, "unit": "A", "timestamp": "2026-02-28T00:00:00Z" },
-            { "metric_name": "PF", "metric_value": 0.95, "unit": "ratio", "timestamp": "2026-02-28T00:00:00Z" }
-        ]
-    },
-    {
-        "device": {
-            "id": "1",
-            "label": "Shop 1",
-            "location": "Pune",
-            "gatewayId": "1231231231231232",
-            "hardwareModel": "Motorola",
-            "deviceType": "Electricity Meter",
-            "isActive": true,
-            "timeStamp": "2026-02-28T13:45:00Z",
-        },
-        "readings": [
-            { "metric_name": "meterUnitReading", "metric_value": 4500.10, "unit": "kWh", "timestamp": "2026-02-28T00:00:00Z" },
-            { "metric_name": "Vr", "metric_value": 230.1, "unit": "V", "timestamp": "2026-02-28T00:00:00Z" },
-            { "metric_name": "Vy", "metric_value": 229.5, "unit": "V", "timestamp": "2026-02-28T00:00:00Z" },
-            { "metric_name": "Vb", "metric_value": 231.0, "unit": "V", "timestamp": "2026-02-28T00:00:00Z" },
-            { "metric_name": "Ir", "metric_value": 4.10, "unit": "A", "timestamp": "2026-02-28T00:00:00Z" },
-            { "metric_name": "Iy", "metric_value": 3.90, "unit": "A", "timestamp": "2026-02-28T00:00:00Z" },
-            { "metric_name": "Ib", "metric_value": 4.05, "unit": "A", "timestamp": "2026-02-28T00:00:00Z" },
-            { "metric_name": "PF", "metric_value": 0.95, "unit": "ratio", "timestamp": "2026-02-28T00:00:00Z" }
-        ]
-    },
+  {
+    "gateway_id": 1,
+    "imei": "123123213123213213124",
+    "location": "Pune",
+    "devices": [
+      {
+        "device_id": 1,
+        "label": "Manufacturing Room",
+        "location": "Pune",
+        "device_type": "Electricity Meter",
+        "is_active": true,
+        "latest_reading": {
+          "id": 11,
+          "device_id": 1,
+          "readings": [
+            {
+              "metric": "Cr",
+              "metric_value": 13.2,
+              "metric_unit": "A"
+            },
+            {
+              "metric": "Vr",
+              "metric_value": 231.4,
+              "metric_unit": "V"
+            },
+            {
+              "metric": "TotalWatts",
+              "metric_value": 100.0,
+              "metric_unit": "W"
+            }
+          ],
+          "timestamp": "2026-03-08T11:50:10",
+          "created_at": "2026-03-14T12:01:21.025471",
+          "quality_flag": "1"
+        }
+      }
+    ]
+  },
+  {
+    "gateway_id": 3,
+    "imei": "123123213123213213126",
+    "location": "Pune",
+    "devices": [
+      {
+        "device_id": 2,
+        "label": "Manudacturing Room",
+        "location": "Pune",
+        "device_type": "Electricity Meter",
+        "is_active": true,
+        "latest_reading": {
+          "id": 12,
+          "device_id": 2,
+          "readings": [
+            {
+              "metric": "Cr",
+              "metric_value": 13.2,
+              "metric_unit": "A"
+            },
+            {
+              "metric": "Vr",
+              "metric_value": 231.4,
+              "metric_unit": "V"
+            },
+            {
+              "metric": "TotalWatts",
+              "metric_value": 100.0,
+              "metric_unit": "W"
+            }
+          ],
+          "timestamp": "2026-03-08T11:50:10",
+          "created_at": "2026-03-14T12:12:24.274591",
+          "quality_flag": "1"
+        }
+      },
+      {
+        "device_id": 3,
+        "label": "Manudacturing Room",
+        "location": "Pune",
+        "device_type": "Electricity Meter",
+        "is_active": true,
+        "latest_reading": null
+      },
+      {
+        "device_id": 4,
+        "label": "sattion 1",
+        "location": "Pune",
+        "device_type": "Electricity Meter",
+        "is_active": true,
+        "latest_reading": null
+      }
+    ]
+  }
 ]
-
 
 export const meterData = {
     device: {

@@ -4,8 +4,10 @@ import Login from "./components/auth/Login";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./components/dashboard/Home";
 import Electricity from "./components/dashboard/Electricity";
-import { ELECTRICITY_METER, ELECTRICITY_ROUTE, HOME_ROUTE, LOGIN_ROUTE } from "./consts/RoutingConstants";
+import { ADD_DEVICE, ADD_GATEWEAY, ELECTRICITY_METER, ELECTRICITY_ROUTE, HOME_ROUTE, LOGIN_ROUTE } from "./consts/RoutingConstants";
 import { ElectricityMeter } from "./components/device/ElectricityMeter";
+import AddDevice from "./components/device/AddDevice";
+import AddGateway from "./components/gateway/AddGateway";
 
 const darkTheme = createTheme({
   palette: {
@@ -39,6 +41,8 @@ const App: React.FC = () => {
           <Route path={HOME_ROUTE} element={<Home />} />
           <Route path={ELECTRICITY_ROUTE} element={<Electricity />} />
           <Route path={ELECTRICITY_METER+"/:id"} element={<ElectricityMeter />} />
+          <Route path={ADD_GATEWEAY} element={<AddGateway/>}/>
+          <Route path={ADD_DEVICE} element={<AddDevice/>}/>
         </Routes>
       </BrowserRouter>
     </ThemeProvider>
