@@ -61,7 +61,7 @@ const Electricity: React.FC = () => {
       try {
         setLoading(true);
         //TO DO:  Calling your service with the IDs you provided (1 and 3)
-        const data = await gatewayService.getGatewayReadings([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]);
+        const data = await gatewayService.getGatewayReadings([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 18, 19, 20]);
         const transformed = transformGatewayData(data);
         setTableData(transformed);
         setError(null);
